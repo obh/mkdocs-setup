@@ -1,0 +1,32 @@
+site_name: Cashfree Docs
+
+theme:
+  name: null
+  custom_dir: 'mkdocs-material-4.0.0/material/'
+  language: 'en'
+  palette:
+    primary: 'deep-purple'
+    accent: 'green'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'images/logo.svg'
+  feature: false
+
+docs_dir: 'src'
+
+nav:
+  - Home: index.md
+  - Payments:
+     - Web: docs/index-old.md
+     - Android: index.md
+     - iOS: index.md
+     - E-Commerce: index.md
+     - Refunds: index.md
+     - API details: index.md
+  - Payouts: index.md
+  - Auto-Collect: index.md
+  - Marketplace Settlements: index.md
+
+  # - hidden:
+  #   - Hidden1: pages/hidden-1.md
